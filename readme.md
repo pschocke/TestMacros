@@ -17,6 +17,8 @@ The package will automatically register itself.
 ### TestResponse
 
 - [`assertResource`](#assertResource)
+- [`asArray`](#asArray)
+- [`resourceAsArray`](#resourceAsArray)
 
 #### `assertResource`
 
@@ -26,6 +28,21 @@ Asserts that a response is a resource
 $model = factory(App\Model::class)->create();
 
 $this->json('GET', '/route/to/resource')->assertResource(new ModelResource($model));
+```
+
+#### `asArray`
+
+Returns the response of a call
+
+```php
+$responseArray = $this->json('GET', '/route/to/response')->asArray();
+```
+#### `ResourceAsArray`
+
+Returns the data attribute of a API resource response
+
+```php
+$responseArray = $this->json('GET', '/route/to/resource')->resourceAsArray();
 ```
 
 ## Change log
