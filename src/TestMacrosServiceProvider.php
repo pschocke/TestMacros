@@ -15,7 +15,6 @@ class TestMacrosServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-
     }
 
     /**
