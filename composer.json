@@ -34,10 +34,7 @@
         "laravel": {
             "providers": [
                 "pschocke\\TestMacros\\TestMacrosServiceProvider"
-            ],
-            "aliases": {
-                "TestMacros": "pschocke\\TestMacros\\Facades\\TestMacros"
-            }
+            ]
         }
     }
 }
