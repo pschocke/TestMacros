@@ -1,6 +1,6 @@
 {
     "name": "pschocke/testmacros",
-    "description": "Usefull Laravel macros that extend tests",
+    "description": "Useful Laravel macros that extend tests",
     "license": "MIT",
     "authors": [
         {
