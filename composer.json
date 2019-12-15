@@ -1,7 +1,7 @@
 {
     "name": "pschocke/testmacros",
-    "description": ":description",
-    "license": "license",
+    "description": "Usefull Laravel macros that extend tests",
+    "license": "MIT",
     "authors": [
         {
             "name": "Patrick Schocke",
