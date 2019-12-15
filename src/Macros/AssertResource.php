@@ -1,8 +1,6 @@
 <?php
 
-
 namespace pschocke\TestMacros\Macros;
-
 
 use Illuminate\Foundation\Testing\TestResponse;
 
