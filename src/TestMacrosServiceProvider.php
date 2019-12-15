@@ -20,7 +20,8 @@ class TestMacrosServiceProvider extends ServiceProvider
                 return [$path => pathinfo($path, PATHINFO_FILENAME)];
             })
             ->reject(function ($macro) {
-                return Collection::hasMacro($macro);
+//                return Collection::hasMacro($macro);
+                return false;
             })
             ->each(function ($macro, $path) {
                 $class = app('pschocke\\TestMacros\\Macros\\'.$macro);
